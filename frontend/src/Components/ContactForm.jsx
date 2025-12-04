@@ -9,7 +9,7 @@ export default function ContactForm({
   isEditing,
 }) {
   return (
-    <div>
+    <div className="contact-form">
       <form onSubmit={handleOnSubmit}>
         <label htmlFor="name">Name: </label>
         <input

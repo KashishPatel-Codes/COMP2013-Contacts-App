@@ -6,7 +6,7 @@ export default function ContactsCardsContainer({
   handleOnEdit,
 }) {
   return (
-    <div>
+    <div className="contacts-list">
       {contacts.map((contactItem) => (
         <ContactCard
           key={contactItem._id}
